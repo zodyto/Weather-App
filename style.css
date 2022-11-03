@@ -9,8 +9,30 @@
 body {
     background: url(images/bg.png);
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: cover;
+    /* background-size: 100% 100vh; */
     font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #93ccf2;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #93ccf2;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #93ccf2;
 }
 
 .btn {
@@ -56,9 +78,9 @@ body {
 .header {
     font-family: "Rubik", sans-serif;
     font-size: 3rem;
-    margin: 30px;
+    margin: 20px;
     color: #ffffff;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-shadow: 3px 0 #0c81cf;
     text-align: center;
 }
